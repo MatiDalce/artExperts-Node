@@ -1,0 +1,111 @@
+.background-contacto{
+    background-image: url('img/arte/jose-valenciana-art-experts.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.container-c{
+max-width: 1050px;
+margin: auto;
+}
+
+.caja-form, .email, .mensaje{
+    margin: 15px 0px;
+}
+.error-name{
+    font-size: small;
+}
+.container-c > div{
+    background-color: white;
+    padding: 55px;
+    color: #2b2c2c;
+   
+
+}
+
+.dragArea{ border: 5px dashed #ddd;
+border-radius: 5px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;}
+
+.dragArea.active{
+    background-color: #eaeef0;
+    color: black;
+    border: 2px dashed #2e7796;
+}
+
+.dragArea h4{ font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:800 }
+
+    .dragArea button{padding: 10px; 
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+   background-color: rgb(108, 108, 136);
+   color: wheat;}
+
+
+
+   .file-container { display: flex;
+align-items: center;
+padding: 10px;
+border: solid 1px #ddd;}
+
+
+#preview {margin-top: 10px;}
+
+.status-text { padding: 0 10px;}
+
+.success { color: green;}
+
+.failure { color: red;}
+
+input[type=text], textarea,
+input[type=text]:focus, textarea:focus{
+    width: 100%;
+    padding: 15px;
+border:0;
+background-color: rgb(236, 236, 236);
+outline: none;
+margin:5px 0px;
+}
+
+.caja-form div{
+padding: 5px 0px;
+}
+
+input[type=submit]{
+width:148px;
+    padding: 10px;
+    background-color: #6e98aa;
+    border: 0;
+    color: white;
+
+}
+.boton-for{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+form{
+    font-family: Arial;
+}
+
+  
+@media screen and (min-width: 950px) {
+    .container-c{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .container-c > div{
+        min-width: 500px;
+        }
+}

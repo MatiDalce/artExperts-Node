@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+
+
+    <link rel="stylesheet" href="/stylesheets/contactoide.css">
+    <script src="/javascripts/contacto.js"></script>
+
+</head>
+<main>
+
+
+
+    <div class="background-contacto">
+        <section>
+            <div class="container-c">
+                <div>
+                    <form action="/contact" id="formulario" enctype="multipart/form-data" method="POST">
+                        <h4>Contáctenos</h4>
+                        <div class="caja-form">
+                             
+                            <div class="nombre">
+                               
+                                <label for="nombre"><b class="nameTitle"> Nombre y apellidos</b>  <h6 class="error-name"></h6></label>
+                                <input type="text" name="name" id="nombre" placeholder="Nombre">
+                               
+                            </div>
+                            <div class="email">
+                                <label for="mail"> <b> E-mail </b> <h6 class="error-email"></h6> </label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div class="drop">
+
+                                <div class="dragArea">
+
+                                    <h4> arrastre y suelta imagenes o haz click </h4>
+                                    <button>Selecciona tu archivo</button>
+                                    
+                                    <input type="file" name="imagenes" multiple id="input-file" hidden  />
+                                   
+
+
+                                </div>
+                                <div id="preview"></div>
+                            </div>
+                            <div>
+                                <label for="mensaje"><b> Mensaje </b> </label>
+                                <textarea name="text" id="mensaje" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="boton-for">
+                            <input class="button-form" type="submit" value="ENVIAR">
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    
+</main>
