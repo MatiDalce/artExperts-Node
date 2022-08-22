@@ -1,5 +1,5 @@
 module.exports = { 
-    get: (req,res) =>{ res.send("about Us") }
+    get: (req,res) =>{ res.status(202).send("about Us") }
     
     
     }
