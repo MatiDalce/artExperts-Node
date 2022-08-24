@@ -1,0 +1,309 @@
+@font-face {
+  font-family: "Clearface";
+  src: url("/fonts/ITC-Clearface-Std-Heavy.otf");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: "Clearface", sans-serif;
+  font-size: 51px;
+}
+
+h3 {
+  font-family: "Clearface", sans-serif;
+  font-size: 38px;
+}
+
+h4 {
+  font-family: "Clearface", sans-serif;
+  font-size: 28px;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-header {
+  font-family: "Clearface", sans-serif;
+  font-weight: 900;
+  padding: 12px;
+}
+.logo-header a {
+  color: #6E98AA;
+  font-size: 32pt;
+  font-style: "Arial", sans-serif;
+}
+
+.sobre-nosotros > div:nth-child(1) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-seccion {
+  padding-top: 30px;
+  height: 354px;
+  background-image: url("../img/arte/pablo picasso.jpg");
+  background-size: cover;
+}
+
+.seccion-container {
+  max-width: 1050px;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.subseccion-header {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+}
+
+.servicios-titulo h1 {
+  font-family: "Clearface", sans-serif;
+  font-size: 51px;
+}
+.servicios-titulo p {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 951px) {
+  #menu-2 {
+    display: none;
+  }
+  .logo-header {
+    display: none;
+  }
+}
+.container-quienes {
+  padding: 40px;
+}
+
+.container-quienes div:nth-child(1) {
+  margin: auto;
+}
+
+.cuerpo > img {
+  width: 100%;
+  max-height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cuerpo p {
+  text-align: justify;
+}
+.cuerpo ul {
+  font-family: "Arial", sans-serif;
+  line-height: 24px;
+  list-style: none;
+}
+
+@media screen and (max-width: 951px) {
+  .container-quienes {
+    padding: 0;
+  }
+  .container-quienes p {
+    font-size: 16px;
+  }
+  .cuerpo {
+    padding: 0px 10px;
+  }
+}
+.background-blue {
+  background-color: #6E98AA;
+  color: white;
+}
+
+.resaltado h3 {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.menu-boton {
+  padding: 10px 0px;
+}
+
+.subseccion-header-1 {
+  height: 100px;
+  background-image: url(/img/arte/pablo\ picasso.jpg);
+  padding: 10px;
+}
+
+.index-container {
+  height: 100%;
+  padding: 20px;
+  max-width: 1050px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-mw-subseccion {
+  max-width: 1050px;
+  margin: auto;
+  padding: 20px 0px 50px 0px;
+}
+.container-mw-subseccion p {
+  text-align: justify;
+}
+.container-mw-subseccion h1 {
+  font-family: "Clearface", sans-serif;
+  font-size: 30px;
+}
+.container-mw-subseccion h2 {
+  font-size: 25px;
+  margin: 10px 0px 0px;
+}
+
+@media screen and (max-width: 951px) {
+  .container-mw-subseccion {
+    padding: 10px 10px 30px 10px;
+  }
+  .container-mw-subseccion p {
+    text-align: start;
+  }
+}
+.subseccion-menu {
+  margin: 20px 0px;
+  font-family: "Arial", sans-serif;
+  color: #2b2c2c;
+}
+.subseccion-menu a {
+  color: #2b2c2c;
+}
+
+.venta-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.venta-grid article {
+  flex: 50%;
+  padding: 5px;
+}
+.venta-grid article h4 {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+.venta-grid article p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.leermas {
+  margin: 30px 0px 0px;
+}
+
+.leermas div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.leermas div:nth-child(1) img {
+  width: 15px;
+  height: 16px;
+}
+
+.leermas ul {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: inside;
+  color: #605E5E;
+  margin-left: 10px;
+}
+
+.leermas ul li {
+  flex: 50%;
+  padding: 0px 10px;
+  min-width: 150px;
+}
+
+.leermas ul li a {
+  color: #605E5E;
+}
+
+.lo-que {
+  padding: 0px 0px 15px;
+}
+.lo-que h2 {
+  margin: 0;
+}
+.lo-que ul {
+  list-style: inside;
+  font-family: "Arial", sans-serif;
+  color: #6E98AA;
+}
+.lo-que ul li {
+  margin: 8px;
+}
+.lo-que ul li span {
+  color: #2b2c2c;
+}
+
+.investigacion {
+  margin: 10px 0px 15px;
+}
+
+.leermas-ciencia {
+  margin: 30px 0px 0px;
+}
+
+.leermas-ciencia div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.leermas-ciencia div:nth-child(1) img {
+  width: 15px;
+  height: 16px;
+}
+
+.leermas-ciencia > ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: inside;
+  color: #605E5E;
+  margin-left: 10px;
+}
+
+.leermas-ciencia > ul li {
+  padding: 0px 10px;
+}
+
+.leermas-ciencia ul li a {
+  color: #605E5E;
+}
+
+.ul-vender ul {
+  list-style: inside;
+  font-family: "Arial", sans-serif;
+  color: #6E98AA;
+}
+.ul-vender ul li {
+  margin: 8px;
+}
+.ul-vender ul li span {
+  color: #2b2c2c;
+}/*# sourceMappingURL=secciones.css.map */

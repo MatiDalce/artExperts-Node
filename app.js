@@ -8,6 +8,9 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var artistRouter = require('./routes/artist')
 var contactRouter = require('./routes/contact')
+var authRouter = require('./routes/auth')
+var cientificoRouter = require('./routes/cientifico')
+var preguntasRouter = require('./routes/preguntas')
 
 var app = express();
 
@@ -22,8 +25,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/',indexRouter)
-app.use('/artist', artistRouter)
-app.use('/contact', contactRouter)
+app.use('/artistas', artistRouter)
+app.use('/contacto', contactRouter)
+app.use("/autenticacion", authRouter )
+app.use("/cientifico-y-forense", cientificoRouter)
+app.use("/preguntas-frecuentes", preguntasRouter)
 
 
 // catch 404 and forward to error handler

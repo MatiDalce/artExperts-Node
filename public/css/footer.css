@@ -1,0 +1,46 @@
+
+
+ .contenido div{
+    padding: 10px;
+ }
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 17px;
+ }
+
+ li a{
+    font-family:'Arial';
+    font-size: 16px;
+    font-weight: 100;
+ }
+
+ li{
+    font-family:'Arial';
+    margin: 10px 0px;
+ }
+
+ ul{
+    list-style: none;
+ }
+
+ @media screen and (min-width: 690px){
+.footer{
+    max-width: 1050px;
+    margin: auto;
+}
+
+.contenido{
+    display:flex;
+    justify-content: space-around;
+}
+
+.contenido div{
+    flex: 1;
+    margin:0px 5px;
+}
+
+ }

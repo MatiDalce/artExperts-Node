@@ -1,0 +1,87 @@
+.background-contacto{
+background-image: url('../img/arte/jose-valenciana-art-experts.jpg');
+/*background-color: #2b2c2c; */
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.container-c{
+max-width: 1050px;
+margin: auto;
+}
+
+.caja-form, .email, .mensaje{
+    margin: 15px 0px;
+}
+
+.container-c > div{
+    background-color: white;
+    padding: 55px;
+    color: #2b2c2c;
+   
+
+}
+
+
+input[type=text], textarea,
+input[type=text]:focus, textarea:focus{
+    width: 100%;
+    padding: 15px;
+border:0;
+background-color: rgb(236, 236, 236);
+outline: none;
+margin:5px 0px;
+font-family: 'Arial';
+}
+
+.caja-form div{
+padding: 5px 0px;
+}
+
+input[type=submit]{
+width:148px;
+    padding: 10px;
+    background-color: #6e98aa;
+    border: 0;
+    color: white;
+
+}
+.boton-for{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+form{
+    font-family: Arial;
+}
+
+  
+@media screen and (min-width: 950px) {
+    .container-c{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+   /* .container-c > div{
+        min-width: 500px;
+        }*/
+}
+
+/*iconos vertical*/
+
+
+
+.icons-contacto{
+    display: flex;
+     flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    padding: 10px;
+}
+
+.icons-contacto i, .icons-contacto iconify-icon{
+    padding: 10px;
+    color: #2b2c2c;
+}

@@ -1,5 +1,5 @@
 module.exports = { 
-get: (req,res) =>{ res.status(202).send("hola") }
+get: (req,res) =>{ res.status(202).render("index") }
 
 
 }
