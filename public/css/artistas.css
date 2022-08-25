@@ -86,9 +86,10 @@ margin:5px 0px;
     grid-row-gap: 30px;
 }
 
-.nombre b{
-    text-transform: capitalize;
+.nombre {
+    text-transform: uppercase;
 }
+
 
 .artistas-page{
     margin: 20px;
