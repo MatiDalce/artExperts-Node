@@ -18,7 +18,7 @@
   <div class="sobre-nosotros">
         
     <div>
-<div class="logo-header"><a href="index.html">ArtExperts</a>
+<div class="logo-header"><a href="/">ArtExperts</a>
 </div>
 </div>
  
@@ -32,28 +32,28 @@
 
   <!-- Overlay content -->
   <div class="overlay-content">
-    <a href="index.html">Inicio</a>
+    <a href="/">Inicio</a>
     <button class="dropdown-btn">Autenticación
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-container">
-        <a href="autenticacion.html">Autenticación</a> 
-        <a href="autenticacion/examinacion.html">Examinación</a>
-        <a href="autenticacion/casos-dificiles.html">Casos difíciles</a>
-        <a href="autenticacion/revision-del-rechazo.html">Revisión del rechazo</a>
+        <a href="autenticacion">Autenticación</a> 
+        <a href="autenticacion/examinacion">Examinación</a>
+        <a href="autenticacion/casos-dificiles">Casos difíciles</a>
+        <a href="autenticacion/revision-del-rechazo">Revisión del rechazo</a>
         <button class="dropdown-btn">Investigación
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-container">
-            <a href="autenticacion/investigacion.html">Investigación</a>
-            <a href="autenticacion/documental.html">Investigación documental</a>
-            <a href="autenticacion/biografica.html">Investigación biográfica</a>
-            <a href="autenticacion/robos.html">Robos</a>
-            <a href="autenticacion/origen.html">Origen</a>
+            <a href="autenticacion/investigacion">Investigación</a>
+            <a href="autenticacion/documental">Investigación documental</a>
+            <a href="autenticacion/biografica">Investigación biográfica</a>
+            <a href="autenticacion/robos">Robos</a>
+            <a href="autenticacion/origen">Origen</a>
           </div>
-          <a href="autenticacion/atribucion.html">Atribución</a>
-          <a href="autenticacion/analisis.html">Análisis</a>
-          <a href="autenticacion/certificacion-coa.html">Certificación (COA)</a>
+          <a href="autenticacion/atribucion">Atribución</a>
+          <a href="autenticacion/analisis">Análisis</a>
+          <a href="autenticacion/certificacion-coa">Certificación (COA)</a>
     
     
     </div>
@@ -146,7 +146,7 @@
   </div>
   </div>
 
-<script src="js/h5.js"></script>
+<script src="javascripts/h5.js"></script>
 
 </nav>
 </div>
@@ -204,7 +204,7 @@
     <article>
         <p><b><%= element.name %> </b></p>
         <p><i><%= element.image %></i></p>
-        <div class="masInfo"><a class="negro" href="/artist/<%= element.id %>">Ver artista<img src="../img/web/arrow-right.png" alt="flecha a la izquierda"></a></div>
+        <div class="masInfo"><a class="negro" href="/artistas/<%= element.id %>">Ver artista<img src="../img/web/arrow-right.png" alt="flecha a la izquierda"></a></div>
     </article>
 
     <% }) %> <% } %>
@@ -219,6 +219,7 @@
         <div><a href="">2</a></div>
         <div><a href="">3</a></div>
     </div>
+</div>
 </div>
 <!-- FOOTER -->
 <footer>
